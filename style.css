@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+
+/* ---------
+  UTILITES
+--------- */
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'poppins', sans-serif;
+}
+
+button {
+  background-color: #E02C6D;
+  color: white;
+  font-size: 16px;
+  font-weight: normal;
+  padding: 10px 25px;
+}
+
+/* ---------------
+  HEADER SECTION
+--------------- */
+
+
+/* --------------
+  HERO SECTION
+-------------- */
+
+.hero {
+  background-color: #2d25a0;
+}
+
+.hero-title {
+  font-size: 64px;
+  font-weight: bold;
+  line-height: 80px;
+  color: #ffffff;
+}
