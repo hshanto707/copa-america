@@ -149,6 +149,35 @@ a {
   margin-bottom: 10px;
 }
 
+/* ---------------
+  NEWS SECTION
+--------------- */
+
+.news-section {
+  text-align: center;
+}
+
+.news {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  width: 1150px;
+  justify-content: space-between;
+  margin: 165px auto 50px;
+}
+
+article {
+  width: 250px;
+  box-shadow: 2px 2px 10px gray;
+  padding: 10px;
+}
+
+article img {
+  width: 100%;
+}
+
+.btn-news {
+}
+
 /* --------
   FOOTER
 -------- */
