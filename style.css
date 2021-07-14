@@ -19,6 +19,7 @@ a {
   color: white;
   font-size: 16px;
   font-weight: 500;
+  margin-top: 15px;
   padding: 10px 25px;
   border: 2px solid #E02C6D;
   display: inline-flex;
@@ -59,7 +60,6 @@ a {
   font-weight: 700;
   line-height: 80px;
   color: #ffffff;
-  padding-bottom: 15px;
 }
 
 .hero-info {
@@ -113,6 +113,42 @@ a {
   margin-top: 70px;
 }
 
+/* --------------------
+  HIGHLIGHTS SECTION
+-------------------- */
+
+.highlight {
+  width: 1070px;
+  margin: auto;
+  display: flex;
+  margin-top: 165px;
+  justify-content: space-between;
+  overflow: hidden;
+}
+
+.highlight-info {
+  width: 469px;
+}
+
+.highlight img {
+  width: 50%;
+}
+
+.highlight-title {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 80px;
+  color: #000000;
+  padding-bottom: 15px;
+}
+
+.details {
+  color: #6C6C6C;
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+
 /* --------
   FOOTER
 -------- */
@@ -153,6 +189,8 @@ footer img {
 .icon {
   color: #969BAB;
 }
+
+/* COPYRIGHT */
 
 .copyright {
   font-size: 18px;
