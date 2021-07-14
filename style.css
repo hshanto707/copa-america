@@ -10,7 +10,7 @@
   font-family: 'poppins', sans-serif;
 }
 
-button {
+a {
   background-color: #E02C6D;
   color: white;
   font-size: 16px;
@@ -20,11 +20,13 @@ button {
   display: inline-flex;
 }
 
-button:hover {
+a:hover {
   border: 2px solid #E02C6D;
   background-color: #ffffff;
   color: #E02C6D;
   box-shadow: 5px 5px #E02C6D;
+  transition: box-shadow, border, background-color 0.3s;
+  cursor: pointer;
 }
 
 .btn-icon {
@@ -65,7 +67,44 @@ button:hover {
   position: relative;
 }
 .banner img:hover {
-  transition: ease-in 0.5s;
+  transition: ease-out 0.5s;
   transform: translate(-50px);
 }
 
+/* ---------------
+  PLAYER SECTION
+--------------- */
+
+.players {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  row-gap: 27px;
+}
+
+.player {
+  width: 330px;
+  padding: 10px;
+  box-shadow: 2px 2px 10px gray;
+}
+
+.player img {
+  width: 100%;
+}
+
+.player-name {
+  font-size: 28px;
+  font-weight: 700;
+  margin: 10px 0;
+}
+
+.player-info {
+  color: #6C6C6C;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.gallery {
+  width: 1130px;
+  margin: auto;
+  margin-top: 70px;
+}
