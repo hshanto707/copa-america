@@ -14,8 +14,21 @@ button {
   background-color: #E02C6D;
   color: white;
   font-size: 16px;
-  font-weight: normal;
+  font-weight: 500;
   padding: 10px 25px;
+  border: 2px solid #E02C6D;
+  display: inline-flex;
+}
+
+button:hover {
+  border: 2px solid #E02C6D;
+  background-color: #ffffff;
+  color: #E02C6D;
+  box-shadow: 5px 5px #E02C6D;
+}
+
+.btn-icon {
+  padding-left: 10px;
 }
 
 /* ---------------
@@ -29,11 +42,30 @@ button {
 
 .hero {
   background-color: #2d25a0;
+  display: flex;
+  padding: 145px;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .hero-title {
   font-size: 64px;
-  font-weight: bold;
+  font-weight: 700;
   line-height: 80px;
   color: #ffffff;
+  padding-bottom: 15px;
 }
+
+.hero-info {
+  padding-left: 50px;
+}
+
+.banner img {
+  width: 556px;
+  position: relative;
+}
+.banner img:hover {
+  transition: ease-in 0.5s;
+  transform: translate(-50px);
+}
+
